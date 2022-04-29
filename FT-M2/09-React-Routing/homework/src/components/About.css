@@ -1,0 +1,40 @@
+.footer-container{
+    background-color:transparent;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.footer-container>a>h2{
+  color: white;
+  text-shadow: -3px 3px 0px #00e6e6,
+                 -6px 6px 0px #01cccc,
+                 -9px 9px 0px #00bdbd;
+  font-weight: 900;
+  margin-bottom: 10px;
+  
+}
+.footer-container>a>h2:hover{
+  transform: scale(1.1);
+}
+
+.video-container2{
+  filter: brightness(150%);
+  filter: opacity(90%);
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: absolute;
+  z-index: -1; 
+}
+.video-container2>video{
+  object-fit: cover;
+  width: 100%;
+  height: 50px;
+  box-shadow:  10px 0px 10px 1px rgb(124, 124, 124);
+  
+}

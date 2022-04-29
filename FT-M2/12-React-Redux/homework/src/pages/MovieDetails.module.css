@@ -1,0 +1,26 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+.col>h4{
+    margin-top: 0px;
+}
+
+.detailsContainer>img{
+    border-radius: 15px;
+}
+
+.movieDetails{
+    font-size: 1.2rem;
+}

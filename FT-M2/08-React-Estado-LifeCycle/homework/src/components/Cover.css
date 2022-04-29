@@ -1,0 +1,13 @@
+.cover-container {
+    filter: brightness(150%);
+    filter: opacity(90%);
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.video{
+    
+    object-fit: cover;
+    width: 100%;
+    
+}

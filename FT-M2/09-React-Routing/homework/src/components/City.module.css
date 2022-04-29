@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.datos{
+   display: flex;
+   flex-direction: column;
+   margin-top: 60px;
+   gap: 10px;
+}
+.datos>h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mainCard{
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 400px;
+    height: 350px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+}
+
+ .mainCard>h2{
+    font-weight: 500;
+    text-shadow: 3px 4px 7px rgba(99, 99, 99, 0.8);
+}

@@ -1,0 +1,16 @@
+.nav-container>h2{
+    color: white;
+  text-shadow: -3px 3px 0px #00e6e6,
+                 -6px 6px 0px #01cccc,
+                 -9px 9px 0px #00bdbd;
+  font-weight: 900;
+  margin-left: 10px;
+}
+.nav-container{
+    background-color:transparent;
+    width: 100%;
+    top: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}

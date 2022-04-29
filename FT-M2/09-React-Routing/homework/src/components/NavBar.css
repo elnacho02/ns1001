@@ -1,0 +1,53 @@
+
+.homeclick{
+  color: white;
+  text-shadow: -3px 3px 0px #00e6e6,
+                 -6px 6px 0px #01cccc,
+                 -9px 9px 0px #00bdbd;
+  font-weight: 900;
+  margin-left: 10px;
+  
+}
+.homeclick:hover{
+  transform: scale(1.1);
+}
+.about{
+  color: white;
+  text-shadow: -3px 3px 0px #00e6e6,
+                 -6px 6px 0px #01cccc,
+                 -9px 9px 0px #00bdbd;
+  font-weight: 900;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  margin-right: 10px;
+}
+.about:hover{
+  transform: scale(1.1);
+}
+.nav-container{
+    background-color:transparent;
+    width: 100%;
+    height: 72px;
+    top: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.video-container{
+  filter: brightness(150%);
+  filter: opacity(90%);
+  width: 100%;
+  height: 72px;
+  position: absolute;
+  z-index: -1;
+  
+}
+.video-container>video{
+  object-fit: cover;
+  width: 100%;
+  height: 72px;
+  box-shadow: 0px 10px 10px rgb(124, 124, 124);
+}

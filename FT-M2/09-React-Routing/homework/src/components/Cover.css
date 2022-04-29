@@ -1,0 +1,27 @@
+.cover-container {
+    filter: opacity(90%);    
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;   
+}
+.cover-container>video{
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.cover-container1 {
+    filter: brightness(150%);
+    filter: opacity(90%);
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.cover-container1>video{
+    
+    object-fit: cover;
+    width: 100%;
+    
+}

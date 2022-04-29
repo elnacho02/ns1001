@@ -1,0 +1,36 @@
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.movieCard:hover{
+    opacity: 0.8;
+}
+.title{
+    color: white;
+}
+.movieImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+.addToFav{
+    background-color: transparent;
+    color: rgb(255, 208, 0);
+    border: none;
+    position: absolute;
+    transform: scale(1.4);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.addToFav:hover{
+    transform: scale(1.8);
+    color: white;
+}
+@media (max-width: 600px){
+    .movieImage{
+        width: 80%;
+        height: auto;
+        
+    }
+}

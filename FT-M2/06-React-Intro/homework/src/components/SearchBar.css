@@ -1,0 +1,9 @@
+
+.bar-container>input{
+    width: 40%;
+    margin-top: 20px;
+}
+.bar-container>button:hover{
+    background-color: gray;
+    color: white;
+}

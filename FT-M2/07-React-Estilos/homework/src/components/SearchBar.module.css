@@ -1,0 +1,52 @@
+.bar_container{ 
+    width: 30%;
+    padding: 2px 0 2px 0;
+    border-radius: 3px;
+}
+.bar_container>input{
+    width: 80%;
+    border-radius: 4px;  
+}
+.bar_container>button{
+    border-radius: 4px;
+    border-color: darkgreen;
+    color: darkgreen;
+    width: 20%;
+}
+.bar_container>button:hover{
+    
+    transform: scale(1.1);
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #080808;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #080808;
+}
+
+.searchTerm:focus{
+  color: #080808;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #080808;
+  background: #080808; */
